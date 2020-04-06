@@ -4,7 +4,7 @@
 
 
 import {inherits, deprecate} from 'util';
-import {Buffer} from 'buffer';
+import {Buffer} from 'buffer-es6';
 Writable.WritableState = WritableState;
 import {EventEmitter} from 'events';
 import {Duplex} from './duplex';
