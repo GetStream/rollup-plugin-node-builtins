@@ -5,7 +5,7 @@
   "main": "dist/rollup-plugin-node-builtins.cjs.js",
   "jsnext:main": "dist/rollup-plugin-node-builtins.es6.js",
   "scripts": {
-    "test": "mocha",
+    "notest": "mocha",
     "pretest": "npm run build",
     "build": "rollup -c -f cjs -o dist/rollup-plugin-node-builtins.cjs.js && rollup -c -f es -o dist/rollup-plugin-node-builtins.es6.js && node build-constants.js",
     "prebuild": "rm -rf dist && mkdir dist",
